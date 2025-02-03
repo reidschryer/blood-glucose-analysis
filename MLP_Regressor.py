@@ -12,7 +12,7 @@ Paper Notes: https://arxiv.org/abs/2106.11189
     Learning rate of 10^-2, chosen for cosine annealing scheduler
     Use AdamW optimizer instead of adam due to weight decay parameter
     Learning rate schedular: Cosine annealing with restarts
-        Restarts have initial budget of 15 epochs, budget multiplier of 2
+        Restarts have initial budget of 30 epochs, budget multiplier of 1
 
 Regularization features implemented so far:
 
